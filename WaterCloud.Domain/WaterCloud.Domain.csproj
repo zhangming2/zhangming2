@@ -110,6 +110,8 @@
     <Compile Include="Entity\SystemManage\ModuleButtonEntity.cs" />
     <Compile Include="Entity\SystemManage\ModuleEntity.cs" />
     <Compile Include="Entity\SystemManage\NoticeEntity.cs" />
+    <Compile Include="Entity\SystemManage\OrdershisEntity.cs" />
+    <Compile Include="Entity\SystemManage\OrdersEntity.cs" />
     <Compile Include="Entity\SystemManage\OrganizeEntity.cs" />
     <Compile Include="Entity\SystemManage\QuickModuleEntity.cs" />
     <Compile Include="Entity\SystemManage\RoleAuthorizeEntity.cs" />
@@ -129,6 +131,8 @@
     <Compile Include="Entity\WeixinManage\WxBaseConfigEntity.cs" />
     <Compile Include="Entity\WeixinManage\WxPropertyInfoEntity.cs" />
     <Compile Include="IRepository\SystemManage\INoticeRepository.cs" />
+    <Compile Include="IRepository\SystemManage\IOrdershisRepository.cs" />
+    <Compile Include="IRepository\SystemManage\IOrdersRepository.cs" />
     <Compile Include="IRepository\SystemManage\IQuickModuleRepository.cs" />
     <Compile Include="IRepository\SystemSecurity\IServerStateRepository.cs" />
     <Compile Include="ViewModel\AuthorizeActionModel.cs" />

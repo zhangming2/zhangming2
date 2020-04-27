@@ -221,6 +221,7 @@
     <Compile Include="Areas\SystemManage\Controllers\DutyController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\ItemsDataController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\ModuleButtonController.cs" />
+    <Compile Include="Areas\SystemManage\Controllers\OrdersController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\QuickModuleController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\ModuleController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\OrganizeController.cs" />
@@ -250,6 +251,9 @@
     <Content Include="Areas\SystemManage\Views\Notice\Details.cshtml" />
     <Content Include="Areas\SystemManage\Views\Notice\Form.cshtml" />
     <Content Include="Areas\SystemManage\Views\Notice\Index.cshtml" />
+    <Content Include="Areas\SystemManage\Views\Orders\Index.cshtml" />
+    <Content Include="Areas\SystemManage\Views\Orders\Form.cshtml" />
+    <Content Include="Areas\SystemManage\Views\Orders\Details.cshtml" />
     <None Include="Areas\SystemSecurity\Views\Log\Index.cshtml" />
     <Content Include="Content\css\knowledge.css" />
     <Content Include="Content\css\layout.css" />

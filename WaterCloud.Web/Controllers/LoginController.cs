@@ -66,10 +66,10 @@ namespace WaterCloud.Web.Controllers
                 {
                     return Content(new AjaxResult { state = ResultType.error.ToString() }.ToJson());
                 }
-                else
-                {
+                //else
+                //{
                     return Content(new AjaxResult { state = ResultType.success.ToString() }.ToJson());
-                }
+                //}
             }
             catch (Exception)
             {

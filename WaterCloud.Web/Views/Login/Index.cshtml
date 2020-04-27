@@ -269,33 +269,36 @@
                     });
                     var login_error = top.$.cookie('WaterCloud_login_error');
                     if (login_error != null) {
-                        switch (login_error) {
-                            case "overdue":
-                                $.login.formMessage('系统登录已超时,请重新登录');
-                                break;
-                            case "OnLine":
-                                $.login.formMessage('您的帐号已在其它地方登录,请重新登录');
-                                break;
-                            case "-1":
-                                $.login.formMessage('系统未知错误,请重新登录');
-                                break;
-                        }
+                        //switch (login_error) {
+                        //    case "overdue":
+                        //        $.login.formMessage('系统登录已超时,请重新登录');
+                        //        break;
+                        //    case "OnLine":
+                        //        $.login.formMessage('您的帐号已在其它地方登录,请重新登录');
+                        //        break;
+                        //    case "-1":
+                        //        $.login.formMessage('系统未知错误,请重新登录');
+                        //        break;
+                        //}
                         top.$.cookie('WaterCloud_login_error', '', { path: "/", expires: -1 });
                     }
                 },
-                checkLogin: function () {
-                    $.ajax({
-                        url: "/Login/CheckLoginState",
-                        type: "post",
-                        async:false,
-                        dataType: "json",
-                        success: function (data) {
-                            if (data.state == "success") {
-                                window.location.href = "/Home/Index";
-                            }
-                        }
-                    });
-                }
+                //checkLogin: function () {
+                //    $.ajax({
+                //        url: "/Login/CheckLoginState",
+                //        type: "post",
+                //        async:false,
+                //        dataType: "json",
+                //        success: function (data) {
+                //            if (data.state == "success") {
+                //                window.location.href = "/Home/Index";
+                //            }
+                //            else {
+                //                window.location.href = "/Home/Index";
+                //            }
+                //        }
+                //    });
+                //}
             };
             $(function () {
                 $.login.checkLogin();

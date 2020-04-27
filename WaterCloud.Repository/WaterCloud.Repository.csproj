@@ -75,6 +75,8 @@
     <Compile Include="SystemManage\ModuleButtonRepository.cs" />
     <Compile Include="SystemManage\ModuleRepository.cs" />
     <Compile Include="SystemManage\AreaRepository.cs" />
+    <Compile Include="SystemManage\OrdershisRepository.cs" />
+    <Compile Include="SystemManage\OrdersRepository.cs" />
     <Compile Include="SystemManage\OrganizeRepository.cs" />
     <Compile Include="SystemManage\RoleRepository.cs" />
     <Compile Include="SystemManage\UserLogOnRepository.cs" />

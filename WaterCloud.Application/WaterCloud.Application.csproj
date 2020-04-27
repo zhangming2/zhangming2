@@ -96,6 +96,8 @@
     <Compile Include="SystemManage\ModuleApp.cs" />
     <Compile Include="SystemManage\ModuleButtonApp.cs" />
     <Compile Include="SystemManage\AreaApp.cs" />
+    <Compile Include="SystemManage\OrdershisApp.cs" />
+    <Compile Include="SystemManage\OrdersApp.cs" />
     <Compile Include="SystemManage\OrganizeApp.cs" />
     <Compile Include="SystemManage\RoleApp.cs" />
     <Compile Include="SystemManage\UserApp.cs" />
